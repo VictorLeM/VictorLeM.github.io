@@ -40,6 +40,10 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+#p01 {
+    font-size: 90px;
+    margin-bottom: 50px;
+}
 
 /* ==================================================
   Elements
@@ -177,7 +181,7 @@ a:hover {
   line-height: 1;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 3px;Enovea
   text-transform: uppercase;
 }
 
