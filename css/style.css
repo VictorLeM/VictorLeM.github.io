@@ -49,7 +49,7 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #199EB8;
+  background-color: #77ba1f;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #fff;
@@ -73,7 +73,7 @@ a {
 
 .btn-ghost:hover {
   background-color: #fff;
-  color: #199EB8;
+  color: #77ba1f;
 }
 
 section {
@@ -101,7 +101,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #77ba1f;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -111,7 +111,22 @@ a:hover {
   color: #fff !important;
   opacity: .75;
 }
-
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+.logo-small {
+    color: #77ba1f;
+    font-size: 50px;
+}
+.logo {
+    color: #77ba1f;
+    font-size: 200px;
+}
 /* ==================================================
   Hero Styling
 ================================================== */
@@ -527,7 +542,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .features h2 {
-  color: #199EB8;
+  color: #11383f;
 }
 
 .feature-col {
@@ -548,7 +563,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: #77ba1f ;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -603,7 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio h2 {
-  color: #199EB8;
+  color: #11383f;
   margin-bottom: 25px;
 }
 
@@ -669,7 +684,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Team Styling
   ================================================== */
 .team h2 {
-  color: #199EB8;
+  color: #11383f;
 }
 
 .team .col-sm-3 {
@@ -774,7 +789,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+  color: #11383f;
 }
 
 #contact .info i {
